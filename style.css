@@ -1,0 +1,23 @@
+main {
+  max-width: 0%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show-perm > .square {
+  visibility: visible;
+}
+
+span {
+  background: rgb(207, 102, 41);
+  padding: 0;
+}
+
+img {
+  margin: 7px 7px 4px 7px;
+}
